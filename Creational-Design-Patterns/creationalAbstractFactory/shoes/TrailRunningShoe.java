@@ -1,7 +1,5 @@
 package creationalAbstractFactory.shoes;
 
-import creationalAbstractFactory.RunningShoe;
-
 public class TrailRunningShoe implements RunningShoe {
     @Override
     public void run(){

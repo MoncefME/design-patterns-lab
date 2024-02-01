@@ -1,8 +1,11 @@
 package creationalAbstractFactory;
 
 import creationalAbstractFactory.factories.RoadRunningGearFactory;
+import creationalAbstractFactory.factories.RunningGearFactory;
 import creationalAbstractFactory.factories.TrackRunningGearFactory;
 import creationalAbstractFactory.factories.TrailRunningGearFactory;
+import creationalAbstractFactory.shoes.RunningShoe;
+import creationalAbstractFactory.watches.RunningWatch;
 
 public class Main {
     public static void main(String[] args) {

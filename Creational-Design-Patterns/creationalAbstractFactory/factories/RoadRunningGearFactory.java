@@ -1,9 +1,8 @@
 package creationalAbstractFactory.factories;
 
-import creationalAbstractFactory.RunningGearFactory;
-import creationalAbstractFactory.RunningShoe;
-import creationalAbstractFactory.RunningWatch;
+import creationalAbstractFactory.shoes.RunningShoe;
 import creationalAbstractFactory.shoes.RoadRunningShoe;
+import creationalAbstractFactory.watches.RunningWatch;
 import creationalAbstractFactory.watches.RoadRunningWatch;
 
 public class RoadRunningGearFactory implements RunningGearFactory {

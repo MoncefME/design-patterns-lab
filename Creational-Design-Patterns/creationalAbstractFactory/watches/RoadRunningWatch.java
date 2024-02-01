@@ -1,7 +1,5 @@
 package creationalAbstractFactory.watches;
 
-import creationalAbstractFactory.RunningWatch;
-
 public class RoadRunningWatch implements RunningWatch {
     @Override
     public void trackRun(){

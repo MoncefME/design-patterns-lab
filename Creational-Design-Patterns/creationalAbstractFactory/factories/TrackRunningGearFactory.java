@@ -1,8 +1,7 @@
 package creationalAbstractFactory.factories;
 
-import creationalAbstractFactory.RunningGearFactory;
-import creationalAbstractFactory.RunningShoe;
-import creationalAbstractFactory.RunningWatch;
+import creationalAbstractFactory.shoes.RunningShoe;
+import creationalAbstractFactory.watches.RunningWatch;
 import creationalAbstractFactory.shoes.TrackRunningShoe;
 import creationalAbstractFactory.watches.TrackRunningWatch;
 
