@@ -1,9 +1,9 @@
 package behavioralChainOfResponsibility;
 
 public class Registration {
-    private int age;
-    private boolean hasPaid;
-    private boolean hasMedicalTest;
+    private final int age;
+    private final boolean hasPaid;
+    private final boolean hasMedicalTest;
 
     public Registration(int age, boolean hasPaid, boolean hasMedicalTest){
         this.age = age;

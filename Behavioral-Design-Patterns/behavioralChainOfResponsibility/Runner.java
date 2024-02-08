@@ -1,7 +1,7 @@
 package behavioralChainOfResponsibility;
 
 public class Runner {
-    private RegistrationHandler registrationHandler;
+    private final RegistrationHandler registrationHandler;
 
     public Runner (RegistrationHandler registrationHandler){
         this.registrationHandler = registrationHandler;
